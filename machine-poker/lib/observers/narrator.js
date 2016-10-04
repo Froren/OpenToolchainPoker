@@ -6,9 +6,9 @@
 
   Card = require('../../hoyle').Card;
 
-  redColor   = '\033[31m';
-blueColor  = '\033[34m';
-resetColor = '\033[0m';;
+  redColor   = '\033[31m' + '\033[47m';
+blueColor  = '\033[34m' + '\033[47m';
+resetColor = '\033[0m';
 
   narratorLogAction = function(logStr) {
     return console.log(redColor + logStr + resetColor);
