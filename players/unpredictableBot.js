@@ -5,7 +5,7 @@ function chance(amount) {
 module.exports = function () {
 
   var info = {
-    name: "RandBot"
+    name: "UnpredictableBot"
   };
 
   function update(game) {
