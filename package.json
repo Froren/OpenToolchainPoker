@@ -17,6 +17,7 @@
   "author": "Mark Percival <m@mdp.im> (@mdp)",
   "license": "MIT",
   "dependencies": {
+    "amqplib": "^0.4.2",
     "async": "~0.2.9"
   },
   "devDependencies": {
