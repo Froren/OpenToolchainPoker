@@ -76,7 +76,7 @@ if (!amqpUrl) {
                 for(var j = 0; j < playersResult[i].length; j++){
 
                     if (totals[playersResult[i][j].name] === undefined) {
-                        totals[playersResult[i][j].name] = 0;
+                        totals[playersResult[i][j].name] = playersResult[i][j].chips;
                     } else {
                         totals[playersResult[i][j].name] += playersResult[i][j].chips;
                     }
