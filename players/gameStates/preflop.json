@@ -1,0 +1,69 @@
+{
+   "community": [],
+   "state": "pre-flop",
+   "hand": 1,
+   "betting": {
+      "call": 20,
+      "raise": 40,
+      "canRaise": true
+   },
+   "self": {
+      "name": "Nameless Challenger",
+      "blind": 0,
+      "ante": 0,
+      "wagered": 0,
+      "state": "active",
+      "chips": 1000,
+      "actions": {},
+      "cards": [
+         "Qs",
+         "5h"
+      ],
+      "position": 3
+   },
+   "players": [
+      {
+         "name": "CallBot",
+         "blind": 5,
+         "ante": 0,
+         "wagered": 5,
+         "state": "active",
+         "chips": 995,
+         "actions": {}
+      },
+      {
+         "name": "UnpredictableBot",
+         "blind": 10,
+         "ante": 0,
+         "wagered": 10,
+         "state": "active",
+         "chips": 990,
+         "actions": {}
+      },
+      {
+         "name": "RandBot",
+         "blind": 0,
+         "ante": 0,
+         "wagered": 20,
+         "state": "active",
+         "chips": 980,
+         "actions": {
+            "pre-flop": [
+               {
+                  "type": "raise",
+                  "bet": 20
+               }
+            ]
+         }
+      },
+      {
+         "name": "Nameless Challenger",
+         "blind": 0,
+         "ante": 0,
+         "wagered": 0,
+         "state": "active",
+         "chips": 1000,
+         "actions": {}
+      }
+   ]
+}

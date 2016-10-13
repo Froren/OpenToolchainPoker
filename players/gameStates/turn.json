@@ -1,0 +1,158 @@
+{
+   "community": [
+      "6d",
+      "8s",
+      "Ad",
+      "2h"
+   ],
+   "state": "turn",
+   "hand": 1,
+   "betting": {
+      "call": 0,
+      "raise": 20,
+      "canRaise": true
+   },
+   "self": {
+      "name": "Nameless Challenger",
+      "blind": 0,
+      "ante": 0,
+      "wagered": 40,
+      "state": "active",
+      "chips": 960,
+      "actions": {
+         "pre-flop": [
+            {
+               "type": "call",
+               "bet": 20
+            },
+            {
+               "type": "call",
+               "bet": 20
+            }
+         ],
+         "flop": [
+            {
+               "type": "check"
+            }
+         ]
+      },
+      "cards": [
+         "Qs",
+         "5h"
+      ],
+      "position": 3
+   },
+   "players": [
+      {
+         "name": "CallBot",
+         "blind": 5,
+         "ante": 0,
+         "wagered": 40,
+         "state": "active",
+         "chips": 960,
+         "actions": {
+            "pre-flop": [
+               {
+                  "type": "call",
+                  "bet": 15
+               },
+               {
+                  "type": "call",
+                  "bet": 20
+               }
+            ],
+            "flop": [
+               {
+                  "type": "check"
+               }
+            ],
+            "turn": [
+               {
+                  "type": "check"
+               }
+            ]
+         }
+      },
+      {
+         "name": "UnpredictableBot",
+         "blind": 10,
+         "ante": 0,
+         "wagered": 40,
+         "state": "active",
+         "chips": 960,
+         "actions": {
+            "pre-flop": [
+               {
+                  "type": "raise",
+                  "bet": 30
+               }
+            ],
+            "flop": [
+               {
+                  "type": "check"
+               }
+            ],
+            "turn": [
+               {
+                  "type": "check"
+               }
+            ]
+         }
+      },
+      {
+         "name": "RandBot",
+         "blind": 0,
+         "ante": 0,
+         "wagered": 40,
+         "state": "active",
+         "chips": 960,
+         "actions": {
+            "pre-flop": [
+               {
+                  "type": "raise",
+                  "bet": 20
+               },
+               {
+                  "type": "call",
+                  "bet": 20
+               }
+            ],
+            "flop": [
+               {
+                  "type": "check"
+               }
+            ],
+            "turn": [
+               {
+                  "type": "check"
+               }
+            ]
+         }
+      },
+      {
+         "name": "Nameless Challenger",
+         "blind": 0,
+         "ante": 0,
+         "wagered": 40,
+         "state": "active",
+         "chips": 960,
+         "actions": {
+            "pre-flop": [
+               {
+                  "type": "call",
+                  "bet": 20
+               },
+               {
+                  "type": "call",
+                  "bet": 20
+               }
+            ],
+            "flop": [
+               {
+                  "type": "check"
+               }
+            ]
+         }
+      }
+   ]
+}
