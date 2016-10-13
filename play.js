@@ -3,12 +3,13 @@ var tournament = require('./test/tournament')
     , ChallBot = require('./players/challengerBot')
     , challenger = MachinePoker.seats.JsLocal.create(ChallBot);
 
+var amqpUrl = process.env.amqpUrl;
 
 /*
     If the table is being run for the pipeline,
     add a narrator and run the tournament once.
 */
-if (!process.env.amqpUrl) {
+if (!amqpUrl) {
     var table = tournament.createTable(challenger, {hands:200});
     table.addObserver(MachinePoker.observers.narrator);
     table.start();
