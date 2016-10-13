@@ -109,7 +109,7 @@ if (!process.env.amqpUrl) {
                         _conn.close();
                     });
                 } else {
-                    setTimeout(() => { publish(); }, 2000);
+                    setTimeout(function(){ publish(); }, 2000);
                 }
             }
 
