@@ -18,7 +18,7 @@ As with any other labs, please don't hesitate to ask questions if you get stuck.
 
 ### Prerequisite Accounts
 
-You will need to have a [Bluemix](www.bluemix.net) account for this lab. You will also need a [Github](https://github.com/) account if you intend to experiment with creating a new bot.
+You will need to have a [Bluemix](https://www.bluemix.net) account for this lab. You will also need a [Github](https://github.com/) account if you intend to experiment with creating a new bot.
 
 After creating the Bluemix account, you will also need to create an _organization_ and a _space_ in your account after logging in.
 
