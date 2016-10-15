@@ -6,7 +6,7 @@ Welcome! In this lightning session we'll be using the [Open Toolchain](https://d
 
 Bolder participants with knowledge of Javascript and poker mechanics will also be able to create their own AI players and contribute them back to this repository, competing against the other attendees of this session.
 
-Any additions to this repository (through pull requests) will automatically trigger a run of a set of tournaments. You can view the results of past tournaments at this link: [otc-poker-leaderboard.mybluemix.net](otc-poker-leaderboard.mybluemix.net)
+Any additions to this repository (through pull requests) will automatically trigger a run of a set of tournaments. You can view the results of past tournaments at this link: [otc-poker-leaderboard.mybluemix.net](https://otc-poker-leaderboard.mybluemix.net)
 
 The page will display the last 5 sets of tournaments, with the timestamp, players, and chip totals of each AI. This leaderboard will automatically update when new tournaments are played.
 
