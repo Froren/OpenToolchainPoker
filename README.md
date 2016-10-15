@@ -99,9 +99,11 @@ Create a WebIDE instance and open up the repo. You'll need to make edits to `pla
 
 The logic is pretty simple, the *update* function will be called multiple times within a single round, the **game** parameter holds all the information about the game that's visible to your bot. You can find examples of some game states in the `gameStates` folder.
 
-The *update* function just needs to return an integer. If the value is equal to the current call amount (game.betting.call), it is considered a *call*. Any amount lower is a *fold*, any amount higher is a *raise*.
+The *update* function just needs to return an integer. If the value is equal to the current call amount (game.betting.call), it is considered a *call*. Any amount lower is a *fold*, any amount higher or equal to game.betting.raise is a *raise*.
 
 You can learn from the existing bots in the `veterans` folder, where they've been caged because they're too powerful. The existing players are pretty simple if you take a look at their source.
+
+More information about making bots can be found in the [JsPoker](https://github.com/mdp/JsPoker) readme.
 
 Commit any changes you make through WebIDE and check the pipeline to see how you fare.
 
